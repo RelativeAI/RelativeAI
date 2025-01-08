@@ -1,0 +1,293 @@
+{
+  "nodes": [
+    {
+      "id": "agent-1736316556173-aodkvmxzg",
+      "type": "agent",
+      "data": {
+        "name": "PhysicsMasterCoordinator",
+        "systemPrompt": "As the coordinator for the physics mastery task, your primary responsibility is to oversee the entire operation, ensuring that all sub-agents are effectively collaborating and focusing on their specific roles. You will manage the workflow, distribute tasks, and handle any conflicts or issues that arise. You should regularly check in with each agent to ensure they are on track and provide guidance or redirection as needed. Additionally, you must compile and synthesize the outputs from all agents into a comprehensive report on physics mastery, ensuring accuracy and completeness. Handle errors by reassigning tasks or requesting re-evaluations from the appropriate agents.",
+        "description": "Coordinates the entire operation, manages workflow, and synthesizes outputs from all agents.",
+        "model": "gpt-4o",
+        "id": "auto-1736316556173-0",
+        "position": {
+          "x": null,
+          "y": null
+        },
+        "data": {
+          "name": "PhysicsMasterCoordinator",
+          "systemPrompt": "As the coordinator for the physics mastery task, your primary responsibility is to oversee the entire operation, ensuring that all sub-agents are effectively collaborating and focusing on their specific roles. You will manage the workflow, distribute tasks, and handle any conflicts or issues that arise. You should regularly check in with each agent to ensure they are on track and provide guidance or redirection as needed. Additionally, you must compile and synthesize the outputs from all agents into a comprehensive report on physics mastery, ensuring accuracy and completeness. Handle errors by reassigning tasks or requesting re-evaluations from the appropriate agents.",
+          "description": "Coordinates the entire operation, manages workflow, and synthesizes outputs from all agents.",
+          "model": "gpt-4o",
+          "style": {
+            "opacity": 0,
+            "scale": 0,
+            "transition": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 20,
+              "delay": 0
+            }
+          }
+        },
+        "isProcessing": false,
+        "lastResult": "The theory of relativity is a fundamental framework in physics, developed by Albert Einstein in the early 20th century, which revolutionized our understanding of space, time, and gravity. It consists of two main components: special relativity and general relativity.\n\n1. **Special Relativity (1905):**\n   - **Principle of Relativity:** The laws of physics are the same for all observers in uniform motion relative to one another (inertial frames of reference).\n   - **Speed of Light:** The speed of light in a vacuum is constant and is the same for all observers, regardless of their relative motion.\n   - **Time Dilation:** Time is not absolute; it can vary for different observers depending on their relative velocities. A moving clock ticks slower compared to a stationary one.\n   - **Length Contraction:** Objects contract in length along the direction of motion as their speed approaches the speed of light.\n   - **Mass-Energy Equivalence:** Expressed by the famous equation \\(E=mc^2\\), it states that mass and energy are interchangeable.\n\n2. **General Relativity (1915):**\n   - **Gravitational Field as Curved Spacetime:** Gravity is not a force but a curvature of spacetime caused by mass. Massive objects like stars and planets warp the fabric of spacetime, and this curvature affects the motion of other objects.\n   - **Equivalence Principle:** Locally (in small regions of spacetime), the effects of gravity are indistinguishable from acceleration. This principle led to the understanding that gravity affects time, causing time to pass more slowly in stronger gravitational fields (gravitational time dilation).\n   - **Predictions and Implications:** General relativity predicts phenomena such as the bending of light around massive objects (gravitational lensing), the precession of planetary orbits, and the existence of black holes and gravitational waves.\n\nThe theory of relativity has been confirmed by numerous experiments and observations and remains a cornerstone of modern physics, providing critical insights into the workings of the universe at both cosmic and quantum scales."
+      },
+      "position": {
+        "x": 495.7401080077929,
+        "y": 136.01187795988307
+      }
+    },
+    {
+      "id": "agent-1736316556173-pf4uixp06",
+      "type": "agent",
+      "data": {
+        "name": "PhysicsTheoryExpert",
+        "systemPrompt": "Your role is to delve deep into theoretical physics, providing detailed explanations, derivations, and insights into complex physics concepts. Collaborate with the PhysicsApplicationExpert and PhysicsTeachingAssistant to ensure that theoretical knowledge is accurately applied and effectively communicated. Generate detailed reports on theoretical findings, and handle errors by consulting with the PhysicsMasterCoordinator for further clarification or deeper analysis.",
+        "description": "Focuses on theoretical aspects of physics, providing deep insights and detailed explanations.",
+        "model": "gpt-4o",
+        "id": "auto-1736316556173-1",
+        "position": {
+          "x": null,
+          "y": null
+        },
+        "data": {
+          "name": "PhysicsTheoryExpert",
+          "systemPrompt": "Your role is to delve deep into theoretical physics, providing detailed explanations, derivations, and insights into complex physics concepts. Collaborate with the PhysicsApplicationExpert and PhysicsTeachingAssistant to ensure that theoretical knowledge is accurately applied and effectively communicated. Generate detailed reports on theoretical findings, and handle errors by consulting with the PhysicsMasterCoordinator for further clarification or deeper analysis.",
+          "description": "Focuses on theoretical aspects of physics, providing deep insights and detailed explanations.",
+          "model": "gpt-4o",
+          "style": {
+            "opacity": 0,
+            "scale": 0,
+            "transition": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 20,
+              "delay": 0.2
+            }
+          }
+        },
+        "isProcessing": true
+      },
+      "position": {
+        "x": 135.00378991144845,
+        "y": 169.75171248466765
+      }
+    },
+    {
+      "id": "agent-1736316556173-ea3mglhji",
+      "type": "agent",
+      "data": {
+        "name": "PhysicsApplicationExpert",
+        "systemPrompt": "Focus on the practical applications of physics theories provided by the PhysicsTheoryExpert. Your task is to apply these theories to real-world scenarios, experiments, and case studies. Collaborate with the PhysicsTeachingAssistant to ensure that applications are understandable and teachable. Generate reports on how theories are applied in practical settings, and handle errors by revising applications or consulting with the PhysicsMasterCoordinator for guidance.",
+        "description": "Applies theoretical physics to practical scenarios and experiments.",
+        "model": "gpt-4o",
+        "id": "auto-1736316556173-2",
+        "position": {
+          "x": null,
+          "y": null
+        },
+        "data": {
+          "name": "PhysicsApplicationExpert",
+          "systemPrompt": "Focus on the practical applications of physics theories provided by the PhysicsTheoryExpert. Your task is to apply these theories to real-world scenarios, experiments, and case studies. Collaborate with the PhysicsTeachingAssistant to ensure that applications are understandable and teachable. Generate reports on how theories are applied in practical settings, and handle errors by revising applications or consulting with the PhysicsMasterCoordinator for guidance.",
+          "description": "Applies theoretical physics to practical scenarios and experiments.",
+          "model": "gpt-4o",
+          "style": {
+            "opacity": 0,
+            "scale": 0,
+            "transition": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 20,
+              "delay": 0.4
+            }
+          }
+        },
+        "isProcessing": false,
+        "lastResult": "The theory of relativity, developed by Albert Einstein, consists of two main parts: special relativity and general relativity. Each part has profound implications and practical applications in the real world.\n\n### Special Relativity\n\n**Overview:**\nSpecial relativity, introduced in 1905, deals with the physics of objects moving at constant speeds, particularly those approaching the speed of light. It is based on two postulates:\n1. The laws of physics are the same in all inertial frames of reference.\n2. The speed of light in a vacuum is constant and independent of the motion of the light source or observer.\n\n**Key Concepts:**\n- **Time Dilation:** Time appears to pass slower for an object moving at high speeds compared to a stationary observer.\n- **Length Contraction:** Objects appear shorter in the direction of motion when moving at high speeds.\n- **Mass-Energy Equivalence:** Expressed by the famous equation \\(E=mc^2\\), indicating that mass can be converted into energy and vice versa.\n\n**Practical Applications:**\n1. **GPS Technology:** The Global Positioning System relies on precise time measurements. Satellites in orbit experience time dilation due to their high speeds and weaker gravitational field compared to the Earth's surface. Special relativity corrections are essential for accurate positioning.\n2. **Particle Accelerators:** In facilities like CERN, particles are accelerated to speeds close to the speed of light. Special relativity is crucial for predicting their behavior and energy requirements.\n\n### General Relativity\n\n**Overview:**\nGeneral relativity, published in 1915, extends the principle of relativity to include acceleration and gravity. It describes gravity not as a force but as a curvature of spacetime caused by mass.\n\n**Key Concepts:**\n- **Spacetime Curvature:** Massive objects like stars and planets curve the spacetime around them, affecting the motion of other objects and light.\n- **Gravitational Time Dilation:** Time runs slower in stronger gravitational fields.\n\n**Practical Applications:**\n1. **Astrophysics and Cosmology:** General relativity is essential for understanding the dynamics of stars, black holes, and the expansion of the universe. It predicts phenomena like gravitational waves, which have been observed and provide insights into cosmic events.\n2. **GPS Technology:** In addition to special relativity, general relativity corrections are necessary for GPS satellites due to the difference in gravitational potential between the satellites and the Earth's surface.\n\n### Teaching and Understanding\n\nTo ensure these concepts are understandable and teachable, collaboration with the PhysicsTeachingAssistant involves:\n- **Simplifying Complex Ideas:** Use analogies and visual aids to explain concepts like spacetime curvature and time dilation.\n- **Hands-On Experiments:** Demonstrate time dilation using high-speed particles in a lab setting or simulations.\n- **Case Studies:** Analyze real-world scenarios, such as GPS technology, to illustrate the necessity of relativity corrections.\n\n### Error Handling and Consultation\n\nIf errors or misunderstandings arise in applying these theories, the following steps are taken:\n- **Revising Applications:** Re-evaluate the application of theories to ensure accuracy and clarity.\n- **Consulting Experts:** Seek guidance from the PhysicsMasterCoordinator to address complex issues or confirm interpretations.\n\nBy integrating these strategies, the theory of relativity can be effectively applied and taught, enhancing both practical understanding and educational outcomes."
+      },
+      "position": {
+        "x": 236.0245841121009,
+        "y": 39.92529799275057
+      }
+    },
+    {
+      "id": "agent-1736316556173-izicvndzu",
+      "type": "agent",
+      "data": {
+        "name": "PhysicsTeachingAssistant",
+        "systemPrompt": "Your role is to assist in the teaching and dissemination of physics knowledge created by the PhysicsTheoryExpert and applied by the PhysicsApplicationExpert. Prepare educational materials, tutorials, and FAQs to help others learn and understand physics concepts. Collaborate with both experts to ensure accuracy and clarity in the materials. Generate teaching aids and handle errors by revising materials based on feedback or further insights from the experts.",
+        "description": "Assists in teaching and clarifying physics concepts, preparing educational materials.",
+        "model": "gpt-4o",
+        "id": "auto-1736316556173-3",
+        "position": {
+          "x": null,
+          "y": null
+        },
+        "data": {
+          "name": "PhysicsTeachingAssistant",
+          "systemPrompt": "Your role is to assist in the teaching and dissemination of physics knowledge created by the PhysicsTheoryExpert and applied by the PhysicsApplicationExpert. Prepare educational materials, tutorials, and FAQs to help others learn and understand physics concepts. Collaborate with both experts to ensure accuracy and clarity in the materials. Generate teaching aids and handle errors by revising materials based on feedback or further insights from the experts.",
+          "description": "Assists in teaching and clarifying physics concepts, preparing educational materials.",
+          "model": "gpt-4o",
+          "style": {
+            "opacity": 0,
+            "scale": 0,
+            "transition": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 20,
+              "delay": 0.6000000000000001
+            }
+          }
+        },
+        "type": "",
+        "isProcessing": true
+      },
+      "position": {
+        "x": -189.40269525793104,
+        "y": 174.25353933051275
+      }
+    },
+    {
+      "id": "agent-1736316556173-jgk7f95hg",
+      "type": "agent",
+      "data": {
+        "name": "PhysicsMasterCoordinator",
+        "systemPrompt": "As the coordinator for the physics mastery task, your primary responsibility is to oversee the entire operation, ensuring that all sub-agents are effectively collaborating and focusing on their specific roles. You will manage the workflow, distribute tasks, and handle any conflicts or issues that arise. You should regularly check in with each agent to ensure they are on track and provide guidance or redirection as needed. Additionally, you must compile and synthesize the outputs from all agents into a comprehensive report on physics mastery, ensuring accuracy and completeness. Handle errors by reassigning tasks or requesting re-evaluations from the appropriate agents.",
+        "description": "Coordinates the entire operation, manages workflow, and synthesizes outputs from all agents.",
+        "model": "gpt-4o",
+        "id": "auto-1736316556173-0",
+        "position": {
+          "x": null,
+          "y": null
+        },
+        "data": {
+          "name": "PhysicsMasterCoordinator",
+          "systemPrompt": "As the coordinator for the physics mastery task, your primary responsibility is to oversee the entire operation, ensuring that all sub-agents are effectively collaborating and focusing on their specific roles. You will manage the workflow, distribute tasks, and handle any conflicts or issues that arise. You should regularly check in with each agent to ensure they are on track and provide guidance or redirection as needed. Additionally, you must compile and synthesize the outputs from all agents into a comprehensive report on physics mastery, ensuring accuracy and completeness. Handle errors by reassigning tasks or requesting re-evaluations from the appropriate agents.",
+          "description": "Coordinates the entire operation, manages workflow, and synthesizes outputs from all agents.",
+          "model": "gpt-4o",
+          "style": {
+            "opacity": 1,
+            "scale": 1,
+            "transition": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 20
+            }
+          }
+        }
+      },
+      "position": {
+        "x": 92.9270511480571,
+        "y": 37.250008374199695
+      }
+    },
+    {
+      "id": "agent-1736316556380-os4rh9hnv",
+      "type": "agent",
+      "data": {
+        "name": "PhysicsTheoryExpert",
+        "systemPrompt": "Your role is to delve deep into theoretical physics, providing detailed explanations, derivations, and insights into complex physics concepts. Collaborate with the PhysicsApplicationExpert and PhysicsTeachingAssistant to ensure that theoretical knowledge is accurately applied and effectively communicated. Generate detailed reports on theoretical findings, and handle errors by consulting with the PhysicsMasterCoordinator for further clarification or deeper analysis.",
+        "description": "Focuses on theoretical aspects of physics, providing deep insights and detailed explanations.",
+        "model": "gpt-4o",
+        "id": "auto-1736316556173-1",
+        "position": {
+          "x": null,
+          "y": null
+        },
+        "data": {
+          "name": "PhysicsTheoryExpert",
+          "systemPrompt": "Your role is to delve deep into theoretical physics, providing detailed explanations, derivations, and insights into complex physics concepts. Collaborate with the PhysicsApplicationExpert and PhysicsTeachingAssistant to ensure that theoretical knowledge is accurately applied and effectively communicated. Generate detailed reports on theoretical findings, and handle errors by consulting with the PhysicsMasterCoordinator for further clarification or deeper analysis.",
+          "description": "Focuses on theoretical aspects of physics, providing deep insights and detailed explanations.",
+          "model": "gpt-4o",
+          "style": {
+            "opacity": 1,
+            "scale": 1,
+            "transition": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 20
+            }
+          }
+        }
+      },
+      "position": {
+        "x": 399.935135396443,
+        "y": 246.41710576592723
+      }
+    },
+    {
+      "id": "agent-1736316556580-ebh28ohm3",
+      "type": "agent",
+      "data": {
+        "name": "PhysicsApplicationExpert",
+        "systemPrompt": "Focus on the practical applications of physics theories provided by the PhysicsTheoryExpert. Your task is to apply these theories to real-world scenarios, experiments, and case studies. Collaborate with the PhysicsTeachingAssistant to ensure that applications are understandable and teachable. Generate reports on how theories are applied in practical settings, and handle errors by revising applications or consulting with the PhysicsMasterCoordinator for guidance.",
+        "description": "Applies theoretical physics to practical scenarios and experiments.",
+        "model": "gpt-4o",
+        "id": "auto-1736316556173-2",
+        "position": {
+          "x": null,
+          "y": null
+        },
+        "data": {
+          "name": "PhysicsApplicationExpert",
+          "systemPrompt": "Focus on the practical applications of physics theories provided by the PhysicsTheoryExpert. Your task is to apply these theories to real-world scenarios, experiments, and case studies. Collaborate with the PhysicsTeachingAssistant to ensure that applications are understandable and teachable. Generate reports on how theories are applied in practical settings, and handle errors by revising applications or consulting with the PhysicsMasterCoordinator for guidance.",
+          "description": "Applies theoretical physics to practical scenarios and experiments.",
+          "model": "gpt-4o",
+          "style": {
+            "opacity": 1,
+            "scale": 1,
+            "transition": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 20
+            }
+          }
+        }
+      },
+      "position": {
+        "x": 429.43972446490795,
+        "y": 31.64011160097404
+      }
+    },
+    {
+      "id": "agent-1736316556775-yzvl6ujwx",
+      "type": "agent",
+      "data": {
+        "name": "PhysicsTeachingAssistant",
+        "systemPrompt": "Your role is to assist in the teaching and dissemination of physics knowledge created by the PhysicsTheoryExpert and applied by the PhysicsApplicationExpert. Prepare educational materials, tutorials, and FAQs to help others learn and understand physics concepts. Collaborate with both experts to ensure accuracy and clarity in the materials. Generate teaching aids and handle errors by revising materials based on feedback or further insights from the experts.",
+        "description": "Assists in teaching and clarifying physics concepts, preparing educational materials.",
+        "model": "gpt-4o",
+        "id": "auto-1736316556173-3",
+        "position": {
+          "x": null,
+          "y": null
+        },
+        "data": {
+          "name": "PhysicsTeachingAssistant",
+          "systemPrompt": "Your role is to assist in the teaching and dissemination of physics knowledge created by the PhysicsTheoryExpert and applied by the PhysicsApplicationExpert. Prepare educational materials, tutorials, and FAQs to help others learn and understand physics concepts. Collaborate with both experts to ensure accuracy and clarity in the materials. Generate teaching aids and handle errors by revising materials based on feedback or further insights from the experts.",
+          "description": "Assists in teaching and clarifying physics concepts, preparing educational materials.",
+          "model": "gpt-4o",
+          "style": {
+            "opacity": 1,
+            "scale": 1,
+            "transition": {
+              "type": "spring",
+              "stiffness": 260,
+              "damping": 20
+            }
+          }
+        }
+      },
+      "position": {
+        "x": 458.5554190849239,
+        "y": 289.2752013305888
+      }
+    }
+  ],
+  "edges": [],
+  "architecture": "Concurrent",
+  "results": {
+    "agent-1736316556173-aodkvmxzg": "The theory of relativity is a fundamental framework in physics, developed by Albert Einstein in the early 20th century, which revolutionized our understanding of space, time, and gravity. It consists of two main components: special relativity and general relativity.\n\n1. **Special Relativity (1905):**\n   - **Principle of Relativity:** The laws of physics are the same for all observers in uniform motion relative to one another (inertial frames of reference).\n   - **Speed of Light:** The speed of light in a vacuum is constant and is the same for all observers, regardless of their relative motion.\n   - **Time Dilation:** Time is not absolute; it can vary for different observers depending on their relative velocities. A moving clock ticks slower compared to a stationary one.\n   - **Length Contraction:** Objects contract in length along the direction of motion as their speed approaches the speed of light.\n   - **Mass-Energy Equivalence:** Expressed by the famous equation \\(E=mc^2\\), it states that mass and energy are interchangeable.\n\n2. **General Relativity (1915):**\n   - **Gravitational Field as Curved Spacetime:** Gravity is not a force but a curvature of spacetime caused by mass. Massive objects like stars and planets warp the fabric of spacetime, and this curvature affects the motion of other objects.\n   - **Equivalence Principle:** Locally (in small regions of spacetime), the effects of gravity are indistinguishable from acceleration. This principle led to the understanding that gravity affects time, causing time to pass more slowly in stronger gravitational fields (gravitational time dilation).\n   - **Predictions and Implications:** General relativity predicts phenomena such as the bending of light around massive objects (gravitational lensing), the precession of planetary orbits, and the existence of black holes and gravitational waves.\n\nThe theory of relativity has been confirmed by numerous experiments and observations and remains a cornerstone of modern physics, providing critical insights into the workings of the universe at both cosmic and quantum scales.",
+    "agent-1736316556173-ea3mglhji": "The theory of relativity, developed by Albert Einstein, consists of two main parts: special relativity and general relativity. Each part has profound implications and practical applications in the real world.\n\n### Special Relativity\n\n**Overview:**\nSpecial relativity, introduced in 1905, deals with the physics of objects moving at constant speeds, particularly those approaching the speed of light. It is based on two postulates:\n1. The laws of physics are the same in all inertial frames of reference.\n2. The speed of light in a vacuum is constant and independent of the motion of the light source or observer.\n\n**Key Concepts:**\n- **Time Dilation:** Time appears to pass slower for an object moving at high speeds compared to a stationary observer.\n- **Length Contraction:** Objects appear shorter in the direction of motion when moving at high speeds.\n- **Mass-Energy Equivalence:** Expressed by the famous equation \\(E=mc^2\\), indicating that mass can be converted into energy and vice versa.\n\n**Practical Applications:**\n1. **GPS Technology:** The Global Positioning System relies on precise time measurements. Satellites in orbit experience time dilation due to their high speeds and weaker gravitational field compared to the Earth's surface. Special relativity corrections are essential for accurate positioning.\n2. **Particle Accelerators:** In facilities like CERN, particles are accelerated to speeds close to the speed of light. Special relativity is crucial for predicting their behavior and energy requirements.\n\n### General Relativity\n\n**Overview:**\nGeneral relativity, published in 1915, extends the principle of relativity to include acceleration and gravity. It describes gravity not as a force but as a curvature of spacetime caused by mass.\n\n**Key Concepts:**\n- **Spacetime Curvature:** Massive objects like stars and planets curve the spacetime around them, affecting the motion of other objects and light.\n- **Gravitational Time Dilation:** Time runs slower in stronger gravitational fields.\n\n**Practical Applications:**\n1. **Astrophysics and Cosmology:** General relativity is essential for understanding the dynamics of stars, black holes, and the expansion of the universe. It predicts phenomena like gravitational waves, which have been observed and provide insights into cosmic events.\n2. **GPS Technology:** In addition to special relativity, general relativity corrections are necessary for GPS satellites due to the difference in gravitational potential between the satellites and the Earth's surface.\n\n### Teaching and Understanding\n\nTo ensure these concepts are understandable and teachable, collaboration with the PhysicsTeachingAssistant involves:\n- **Simplifying Complex Ideas:** Use analogies and visual aids to explain concepts like spacetime curvature and time dilation.\n- **Hands-On Experiments:** Demonstrate time dilation using high-speed particles in a lab setting or simulations.\n- **Case Studies:** Analyze real-world scenarios, such as GPS technology, to illustrate the necessity of relativity corrections.\n\n### Error Handling and Consultation\n\nIf errors or misunderstandings arise in applying these theories, the following steps are taken:\n- **Revising Applications:** Re-evaluate the application of theories to ensure accuracy and clarity.\n- **Consulting Experts:** Seek guidance from the PhysicsMasterCoordinator to address complex issues or confirm interpretations.\n\nBy integrating these strategies, the theory of relativity can be effectively applied and taught, enhancing both practical understanding and educational outcomes."
+  }
+}
